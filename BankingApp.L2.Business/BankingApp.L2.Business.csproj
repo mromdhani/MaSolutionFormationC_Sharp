@@ -41,13 +41,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Facade\IComptesBusiness.cs" />
+    <Compile Include="Implementations\ComptesBusinessImpl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BankingApp.L0.Domain\BankingApp.L0.Domain.csproj">
+      <Project>{8543fffe-0a4d-4da9-96fe-1467ddce5828}</Project>
+      <Name>BankingApp.L0.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BankingApp.L1.DataAccess\BankingApp.L1.DataAccess.csproj">
       <Project>{35bf7679-2e0d-4516-8e0a-917b77110c86}</Project>
       <Name>BankingApp.L1.DataAccess</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BankingApp.L0.Domain
 {
-  
+     
    public  class Compte
     {
-        [Key]   public string Numero { get; set; }  // Auto-implemented properties (C#3)
+        [Key]
+        public string Numero { get; set; }  // Auto-implemented properties (C#3)
         public string Proprietaire { get; set; }
         public decimal Solde { get; set; }
 
