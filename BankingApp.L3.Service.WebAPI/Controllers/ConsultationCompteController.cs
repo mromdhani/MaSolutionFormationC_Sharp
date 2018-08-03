@@ -11,8 +11,11 @@ namespace BankingApp.L3.Service.WebAPI.Controllers
 {
     public class ConsultationCompteController : ApiController
     {
-        private IComptesBusiness business =
-               new ComptesBusinessImpl();
+        private IComptesBusiness business;
+        public ConsultationCompteController(IComptesBusiness business)
+        {
+            this.business = business;
+        }
 
         // GET api/values
         public decimal Get(string numero)
