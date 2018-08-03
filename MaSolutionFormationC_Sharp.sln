@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingApp.L3.Service.WebAP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingApp.L1.DataAccess.Tests", "BankingApp.L1.DataAccess.Tests\BankingApp.L1.DataAccess.Tests.csproj", "{C8150553-60F1-4C8A-B02D-ED0706435570}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banking.BackOffice", "Banking.BackOffice\Banking.BackOffice.csproj", "{CB52F2CC-91F3-4F56-99BC-C7B7D5D01E20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,10 @@ Global
 		{C8150553-60F1-4C8A-B02D-ED0706435570}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8150553-60F1-4C8A-B02D-ED0706435570}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8150553-60F1-4C8A-B02D-ED0706435570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB52F2CC-91F3-4F56-99BC-C7B7D5D01E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB52F2CC-91F3-4F56-99BC-C7B7D5D01E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB52F2CC-91F3-4F56-99BC-C7B7D5D01E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB52F2CC-91F3-4F56-99BC-C7B7D5D01E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
